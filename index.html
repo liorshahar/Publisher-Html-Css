@@ -8,10 +8,14 @@
         <meta name="author" content="">
         <meta name="copyright" content="">
         <link href="./css/style.css" rel="stylesheet" type="text/css">
+        <script
+                src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
     </head>
     <body>
-        <nav id="navMenu">
-            <div id="SideMenuHamBtn">
+        <nav id="sideNavMenu">
+            <div id="sideMenuHamBtn">
                 <span ></span>
                 <span ></span>
                 <span ></span>
@@ -28,7 +32,6 @@
                 <li>log out</li>
             </ul>
         </nav>
-
         <wrapper id="mainWrapper">
             <header>
                 <nav id="navHeader">
@@ -42,11 +45,31 @@
                     </div>
                     <div id="currentSelectionIcone">
                     </div>
-
                 </nav>
+                <main>
+                    <div id="dailyGoal">
+                        <p>reach<br> your daily</p>
+                    </div>
+                    <div class="dailyGoalSiblings">
+                        <p>Daily 10 minutes reading <span>3/10</span></p>
+                        <p>win 10 xp</p>
+                        <div class="progressBar">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="dailyGoalSiblings">
+                        <p>read 5 days in row <span>4/5</span></p>
+                        <p>win 10 xp</p>
+                        <div class="progressBar">
+                            <span></span>
+                        </div>
+                    </div>
+                </main>
             </header>
 
         </wrapper>
 
     </body>
+    <script src="js/index.js">
+    </script>
 </html>
