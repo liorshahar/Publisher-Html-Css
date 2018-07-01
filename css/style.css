@@ -152,27 +152,38 @@ a:hover, a:focus, a:active {
 /* End hide */
 /* ------------------- Content ------------------- */
 
-/* Style for "Rectangle" */
-.rectangleMenu{
+/* Css for side menu */
+.navMenu{
     width: 951px;
     height: 2555px;
     border: 1px solid #707070;
     background-color: #ffffff;
 }
 
-.hamBtn{
+
+/* Css for hamburger btn*/
+
+#hamBtn{
+    width: 73px;
+    margin-top: 78px;
+    margin-left: 64px;
+    height: 71px;
+  
+}
+
+#hamBtn span{
     width: 58px;
     height: 1px;
     border: 7px solid #95989a;
-    margin-left: 64px;
-    margin-top: 13px;
+    display: block;
 }
 
-.hamBtn:first-child{
-    margin-top: 78px;
+#hamBtn span:not(:first-child){
+   margin-top: 13px;
 }
 
 
+/* Css for Publisher logo*/
 
 .logo{
     width: 485px;
@@ -184,18 +195,35 @@ a:hover, a:focus, a:active {
     text-transform: uppercase;
     margin: 0 auto;
     margin-top: 135px;
+    background-image: url('/images/logo.png');
+    background-position: center;
+    padding: 35px;
 }
 
-.logoImg1{
-    width: 70px;
-    height: 68px;
-    background-color: #ffffff;
-    margin-left: 196px;
+/* Css for nav*/
+
+nav ul{
+    margin: 0 auto;
+    padding-left: 93px;
+    padding-right: 107px;
+    margin-top: 179px;
 }
 
-.logoImg2{
-    width: 55px;
-    height: 51px;
+nav ul li{
+    height: 184px;
+    line-height: 184px;
+    font-size: 60px;
+    font-family: "Atlas AAA";
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #95989a;
+    border-top: 1px solid #707070;
+}
+
+nav ul li:nth-child(6){
+    margin-top: 665px;
+    text-align: center;
 }
 
 
