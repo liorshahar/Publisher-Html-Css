@@ -153,36 +153,43 @@ a:hover, a:focus, a:active {
 /* ------------------- Content ------------------- */
 
 /* Css for side menu */
-.navMenu{
+#navMenu{
     width: 951px;
     height: 2555px;
     border: 1px solid #707070;
     background-color: #ffffff;
+    //display: none;
+    position: absolute;
+    top: 0;
 }
 
 
 /* Css for hamburger btn*/
 
-#hamBtn{
+#headerHamBtn ,#SideMenuHamBtn{
     width: 73px;
     margin-top: 78px;
     margin-left: 64px;
     height: 71px;
-  
+
 }
 
-#hamBtn span{
+#headerHamBtn span ,#SideMenuHamBtn span{
     width: 58px;
     height: 1px;
     border: 7px solid #95989a;
     display: block;
 }
 
-#hamBtn span:not(:first-child){
-   margin-top: 13px;
+#headerHamBtn span:not(:first-child),
+#SideMenuHamBtn span:not(:first-child)
+{
+    margin-top: 13px;
 }
 
-
+#headerHamBtn{
+    float: left;
+}
 /* Css for Publisher logo*/
 
 .logo{
@@ -226,10 +233,41 @@ nav ul li:nth-child(6){
     text-align: center;
 }
 
+/*-------------------------------------*/
 
+/* Css for main weapper*/
 
+#mainWrapper{
+    display: block;
+    width: 1440px;
+    height: 8545px;
+    background-color: #ffffff; 
+    border:1px solid #000;
+}
 
+header nav div:nth-child(2){
+    width: 700px;
+    height: 69px;
+    color: #95989a;
+    font-family: "Atlas AAA";
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    float: left;
+    margin-left: 290px;
+    margin-top: 64px;
+}
 
+#currentSelectionIcone{
+    width: 103px;
+    height: 143px;
+    float: right;
+    margin-top: 46px;
+    margin-right: 61px;
+    background-image: url(/images/libraryCarIcon.png);
+    background-repeat: no-repeat;
+}
 
 
 
