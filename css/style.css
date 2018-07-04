@@ -282,6 +282,8 @@ a:hover, a:focus, a:active {
     background-repeat: no-repeat;
 }
 
+/* Css for reach your daily goal*/
+
 #dailyGoal{
     clear: both;
     width: 700px;
@@ -304,6 +306,7 @@ a:hover, a:focus, a:active {
     float: left;
     margin-left: 124px;
 }
+
 
 main .dailyGoalSiblings:nth-child(2){
     margin-top: 100px;
@@ -363,8 +366,56 @@ main .dailyGoalSiblings:nth-child(2){
 /*--------------------------*/
 
 
+/* Css for currntly borrowed*/
+
+.clear-both{
+    clear: both;
+}
+
+#currntlyBorrowed{
+    margin-top: 225px; 
+    display: inline-block;
+    width: 100%;
+
+    overflow: hidden;
+    text-align: center;
+
+}
+
+#currntlyBorrowed p{
+
+    color: #000000;
+    font-family: "Atlas AAA";
+    font-size: 60px;
+    font-weight: 500;
+
+}
 
 
+#currntlyBorrowed p{
+
+}
+
+#currntlyBorrowed p:before,
+#currntlyBorrowed p:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+#currntlyBorrowed p:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+#currntlyBorrowed p:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
 
 
 
