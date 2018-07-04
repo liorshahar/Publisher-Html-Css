@@ -372,56 +372,313 @@ main .dailyGoalSiblings:nth-child(2){
     clear: both;
 }
 
-#currntlyBorrowed{
-    margin-top: 225px; 
-    display: inline-block;
-    width: 100%;
 
-    overflow: hidden;
-    text-align: center;
+#currntlyBorrowed{
+    margin-top: 224px;
+    width: 100%;
+    height: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;  
+    line-height: 30px;
 
 }
 
-#currntlyBorrowed p{
+#currntlyBorrowed span{
+    font-size: 60px;
+    background-color: #F3F5F6;
+    margin-right: 300px;
 
+}
+
+/* Css for Book Challenge information*/
+
+.bookChallengInfo{
+    width: 1167px;
+    height: 815px;  
+    margin: 0 auto;
+    background-image: linear-gradient(180deg, #ffffff 0%, #f8f8f8 100%); 
+    margin-top: 184px;
+
+}
+
+.bookChallengInfo:first-child{
+    width: 1160px;
+    height: 530px;
+    display: block;
+}
+
+.bookChallengInfo section:nth-child(2){
+    width: 70%;
+    height: 270px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.16);
+    background-image: linear-gradient(180deg, #ffffff 0%, #f8f8f8 100%);
+    float: left;
+
+}
+
+.bookChallengInfo span:nth-child(1){
+    color: #454545;
+    font-family: Tinos;
+    font-size: 94px;
+    font-weight: 700;
+}
+
+.bookChallengInfo section:nth-child(3){
+    width: 29%;
+    height: 270px;
+    float: right;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.16);
+    background-image: linear-gradient(180deg, #ffffff 0%, #f8f8f8 100%);
+    text-align: center;
+
+
+}
+
+.bookChallengInfo section:nth-child(3) img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.bookChallengInfo span:nth-child(2){
+    width: 158px;
+    height: 83px;
+    color: #000000;
+    font-family: "Atlas AAA";
+    font-size: 55px;
+    font-weight: 500;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Css for expend bowrrow*/
+
+#expendBorrow{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1167px;
+    height: 342px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.16);
+    background-image: linear-gradient(180deg, #ffffff 0%, #f8f8f8 100%);
+}
+
+#expendBorrow span{
+    width: 646px;
+    height: 212px;
+    color: #454545;
+    font-family: Tinos;
+    font-size: 94px;
+    font-weight: 700;
+    float: left;
+}
+
+#expendBorrowBtn{
+    background: none;
+    border: none;
+    float: right;
+    width: 193px;
+    height: 198px; 
+    background-image: url("/images/expBtn.png");
+    margin-right: 100px;
+    margin-top: 70px;
+}
+
+#expendBorrowBtn:hover{
+    cursor: pointer;
+}
+
+/* Css for books another try*/
+
+#bookAnotherTray{
+    margin-top: 200px;
+    width: 1364px;
+}
+
+
+#bookAnotherTray p{
+    margin: 0 auto;
+    width: 1100px;
+    height: 79px;
     color: #000000;
     font-family: "Atlas AAA";
     font-size: 60px;
     font-weight: 500;
+    text-transform: uppercase;
+}
+
+#bookAnotherTray article{
+    padding: 20px;
+    margin-top: 100px;
+    height: 871px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.16);
+    background-image: linear-gradient(180deg, #ffffff 0%, #f8f8f8 100%);
+}
+
+#bookAnotherTray article img{
+    width: 497px;
+    height: 749px;
+    border: 1px solid black;
+    float: left;
+}
+
+#bookAnotherTray article section:nth-child(2){
+    width: 638px;
+    height: 465px;
+    margin: 90px 96px 40px 0;
+    color: #000000;
+    font-family: Tinos;
+    font-size: 80px;
+    font-style: italic;
+    float: right;
+    word-wrap: break-word;
+}
+
+#bookAnotherTray button{
+    width: 491px;
+    height: 150px;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Atlas AAA";
+    font-size: 64px;
+    font-weight: 700;
+    margin-left: 80px;
+}
+
+/* Css for recently finish book*/
+
+#recentlyFinish{
+    clear: both;
+}
+
+#recentlyFinish article{
+    padding: 20px;
+    margin-top: 100px;
+    height: 780px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.16);
+    background-image: linear-gradient(180deg, #ffffff 0%, #f8f8f8 100%);
+}
+
+#recentlyFinish p{
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 1100px;
+    height: 79px;
+    color: #000000;
+    font-family: "Atlas AAA";
+    font-size: 60px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+#recentlyFinish article img{
+    width: 497px;
+    height: 749px;
+    border: 1px solid black;
+    float: left;
+}
+
+#recentlyFinish article section:nth-child(2){
+    width: 800px;
+    height: 400px;
+    color: #000000;
+    font-family: Tinos;
+    font-size: 94px;
+    font-weight: 700;
+    float: left;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 550px;
+}
+
+#recentlyFinish article section:nth-child(3){
+    width: 800px;
+    height: 354px;
+    color: #000000;
+    font-family: Tinos;
+    font-size: 94px;
+    font-weight: 700;
+    float: left;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 550px;
+    display: flex;
+    justify-content:center;
+
+}
+
+#recentlyFinish article section:nth-child(3) span{
+    width: 90px;
+    height: 88px;
+    flex-direction: row ;
+    background-image: url("/images/rateStar.png");
+    margin-left: 20px;
+}
+
+/* Css for wish list*/
+
+#wishList{
+    margin-top: 224px;
+    width: 100%;
+    height: 20px;
+    border-bottom: 1px solid black;
+    line-height: 30px;
 
 }
 
 
-#currntlyBorrowed p{
+
+#wishList span{
+    font-size: 60px;
+    background-color: #F3F5F6;
+    margin-left: 150px;
+    color: #000000;
+    font-family: "Atlas AAA";
+    font-size: 60px;
+    font-weight: 500;
+}
+
+#wishList article{
+    padding: 20px;
+    margin-top: 100px;
+    height: 376px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.16);
+    background-image: linear-gradient(180deg, #ffffff 0%, #f8f8f8 100%);
+}
+
+#wishList article img{
+    width: 242px;
+    height: 371px;
+    border: 1px solid black;
+    display: inline;
 
 }
 
-#currntlyBorrowed p:before,
-#currntlyBorrowed p:after {
-    background-color: #000;
-    content: "";
-    display: inline-block;
-    height: 1px;
-    position: relative;
-    vertical-align: middle;
-    width: 50%;
+#wishList article section{
+    width: 1140px;
+    height: 371px;  
+    display: inline;
+    line-height: 371px;
+    color: #000000;
+    font-family: Tinos;
+    font-size: 75px;
+    font-weight: 700;
+
 }
 
-#currntlyBorrowed p:before {
-    right: 0.5em;
-    margin-left: -50%;
+#wishList article section span{
+    color: #000000;
+    margin-left: 40px;
+    font-family: Tinos;
+    font-size: 75px;
+    font-weight: 700;
 }
 
-#currntlyBorrowed p:after {
-    left: 0.5em;
-    margin-right: -50%;
+#wishList article section span span{
+    background-color: beige;
+    font-family: Tinos;
+    font-size: 200px;
+    font-weight: 700;
 }
-
-
-
-
-
-
-
-
-
