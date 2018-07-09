@@ -682,3 +682,68 @@ main .dailyGoalSiblings:nth-child(2){
     font-size: 200px;
     font-weight: 700;
 }
+
+/* Css for main profile*/
+
+#mainProfile{
+    width: 1440px;
+    height: 1258px;
+    position: relative;
+}
+
+#mainProfile section:nth-child(1){
+    width: 1440px;
+    height: 1010px;
+    background-color: #000;
+    background-image: url(/images/path-794.png);
+
+}
+
+#mainProfile img{
+    position: absolute;
+    top: 338px;
+    left: 170px;
+    z-index: 1;
+}
+
+#mainProfile section:nth-child(3){
+    width: 1332px;
+    height: 679px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.16);
+    background-image: linear-gradient(180deg, #ffffff 0%, #f8f8f8 100%);
+    position: absolute;
+    top:510px;
+    left: 54px;
+}
+
+#mainProfile section:nth-child(4){
+    width: 1440px;
+    height: 251px;
+    background-image: linear-gradient(180deg, #000000 0%, rgba(255, 255, 255, 0) 100%);
+} 
+
+#mainProfile table{
+    margin-top: 40px;
+    margin-left: 650px;
+}
+
+
+#mainProfile table tr td{
+    width: 200px;
+    height: 76px;
+    color: #454545;
+    font-family: "Atlas AAA";
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#mainProfile table tr:nth-child(2) td{
+    width: 161px;
+    height: 45px;
+    color: #454545;
+    font-family: "Atlas AAA";
+    font-size: 39px;
+    font-weight: 400;
+}
+
