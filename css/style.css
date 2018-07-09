@@ -683,6 +683,8 @@ main .dailyGoalSiblings:nth-child(2){
     font-weight: 700;
 }
 
+
+/* Profile page*/
 /* Css for main profile*/
 
 #mainProfile{
@@ -722,28 +724,128 @@ main .dailyGoalSiblings:nth-child(2){
     background-image: linear-gradient(180deg, #000000 0%, rgba(255, 255, 255, 0) 100%);
 } 
 
+
+#mainProfile section:nth-child(3) div{
+    margin-top: 40px;
+}
+
+#mainProfile section:nth-child(3) div span{
+    background-color: width: 252px;
+    height: 84px;
+    color: #007aff;
+    font-family: "Arial";
+    font-size: 72px;
+    font-weight: 400;
+    margin-left: 134px;
+}
+
+
+#mainProfile section:nth-child(3) div:nth-child(3){
+    width: 1012px;
+    height: 265px;
+    color: #000000;
+    font-family: Tinos;
+    font-size: 60px;
+    font-weight: 400;
+    margin-left: 134px
+}
+
+/* fid table*/
 #mainProfile table{
     margin-top: 40px;
-    margin-left: 650px;
+    margin-left: 500px;
 }
 
 
 #mainProfile table tr td{
-    width: 200px;
+    width: 220px;
     height: 76px;
     color: #454545;
-    font-family: "Atlas AAA";
+    font-family: "arial";
     font-size: 65px;
     font-weight: 700;
     text-align: center;
+    line-height: 7px;
+
 }
 
 #mainProfile table tr:nth-child(2) td{
-    width: 161px;
+    width: 200px;
     height: 45px;
     color: #454545;
-    font-family: "Atlas AAA";
+    font-family: "arial";
     font-size: 39px;
     font-weight: 400;
+    padding-top: 0;
+    margin-top: 0;
+    line-height: 1px;
+
+}
+
+/* Css for continue writing*/
+#continueWriting{
+    margin-top: 224px;
+    width: 100%;
+    height: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;  
+    line-height: 30px;
+
+}
+
+#continueWriting span{
+    font-size: 60px;
+    background-color: #F3F5F6;
+    margin-right: 300px;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+#continueWritingBook{
+    margin-top: 200px;
+    width: 1364px;
+}
+
+
+
+
+#continueWritingBook article{
+    padding: 20px;
+    margin-top: 100px;
+    height: 871px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.16);
+    background-image: linear-gradient(180deg, #ffffff 0%, #f8f8f8 100%);
+}
+
+#continueWritingBook article img{
+    width: 326px;
+    height: 587px;
+    border: 1px solid black;
+    float: left;
+}
+
+#continueWritingBook article section:nth-child(2){
+    width: 638px;
+    height: 272px;
+    margin-left: 100px; 
+    color: #000000;
+    font-family: Tinos;
+    float: left;
+    word-wrap: break-word;
+    font-family: Tinos;
+    font-size: 94px;
+    font-weight: 700;
+}
+
+#continueWritingBook button{
+    width: 491px;
+    height: 150px;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Atlas AAA";
+    font-size: 64px;
+    font-weight: 700;
+    margin-left: 80px;
 }
 
